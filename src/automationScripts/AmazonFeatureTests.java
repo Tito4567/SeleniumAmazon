@@ -58,9 +58,13 @@ public class AmazonFeatureTests {
 		{
 			l++;
 			System.out.println(l);
+			String title = "Amazon.com: Computers & Accessories: Electronics: Computer Accessories & Peripherals, Tablet Accessories & More";
 			System.out.println("computerCheck");
 			WebElement eleII = driver.findElement(By.xpath("//a[@aria-label='Computers']"));
 			eleII.click();
+			String actualTitle = driver.getTitle();
+			Assert.assertEquals(title, actualTitle);
+			
 		}
 		
 		
