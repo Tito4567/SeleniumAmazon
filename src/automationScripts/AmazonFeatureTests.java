@@ -68,9 +68,10 @@ public class AmazonFeatureTests {
 			
 			System.out.println("Runnng hover test");
 			WebElement eleII = driver.findElement(By.xpath("//a[@data-nav-role='signin']"));
+			eleII.click();
 //			Actions action = new Actions(driver);
 //			action.moveToElement(eleII).perform();
-//			Thread.sleep(20000);
+			Thread.sleep(20000);
 			
 			
 			
@@ -104,11 +105,11 @@ public class AmazonFeatureTests {
 			System.out.println(ele.getText());
 		}
 		
-		@AfterClass
-		public void closeBrowser() throws InterruptedException 
-		{
-			driver.quit();
-		}
+//		@AfterClass
+//		public void closeBrowser() throws InterruptedException 
+//		{
+//			driver.quit();
+//		}
 		
 		@BeforeMethod
 		public void methodInvoke() 

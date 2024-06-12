@@ -2,67 +2,63 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-11T20:55:56 EDT" name="Default suite" finished-at="2024-06-11T20:57:17 EDT" duration-ms="81202">
+  <suite started-at="2024-06-11T22:36:51 EDT" name="Default suite" finished-at="2024-06-11T22:40:37 EDT" duration-ms="225812">
     <groups>
     </groups>
-    <test started-at="2024-06-11T20:55:56 EDT" name="Default test" finished-at="2024-06-11T20:57:17 EDT" duration-ms="81202">
+    <test started-at="2024-06-11T22:36:51 EDT" name="Default test" finished-at="2024-06-11T22:40:37 EDT" duration-ms="225812">
       <class name="automationScripts.AmazonFeatureTests">
-        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:55:56 EDT" name="invokeBrowser" finished-at="2024-06-11T20:56:36 EDT" duration-ms="39986" status="PASS">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:36:51 EDT" name="invokeBrowser" finished-at="2024-06-11T22:36:59 EDT" duration-ms="7802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invokeBrowser -->
-        <test-method is-config="true" signature="methodInvoke()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:36 EDT" name="methodInvoke" finished-at="2024-06-11T20:56:36 EDT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="methodInvoke()[pri:0, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:36:59 EDT" name="methodInvoke" finished-at="2024-06-11T22:36:59 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInvoke -->
-        <test-method signature="verifyTitleOfThePage()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:36 EDT" name="verifyTitleOfThePage" finished-at="2024-06-11T20:56:46 EDT" duration-ms="10088" status="PASS">
+        <test-method signature="verifyTitleOfThePage()[pri:0, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:36:59 EDT" name="verifyTitleOfThePage" finished-at="2024-06-11T22:39:57 EDT" duration-ms="177943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleOfThePage -->
-        <test-method is-config="true" signature="methodClose()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:46 EDT" name="methodClose" finished-at="2024-06-11T20:56:46 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="methodClose()[pri:0, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:39:57 EDT" name="methodClose" finished-at="2024-06-11T22:39:57 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodClose -->
-        <test-method is-config="true" signature="methodInvoke()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:46 EDT" name="methodInvoke" finished-at="2024-06-11T20:56:46 EDT" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodInvoke -->
-        <test-method signature="searchProduct()[pri:100, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:46 EDT" name="searchProduct" finished-at="2024-06-11T20:56:55 EDT" duration-ms="9007" status="PASS">
+        <test-method signature="searchProduct()[pri:100, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:39:57 EDT" name="searchProduct" finished-at="2024-06-11T22:40:08 EDT" duration-ms="11121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="methodClose()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:55 EDT" name="methodClose" finished-at="2024-06-11T20:56:55 EDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodClose -->
-        <test-method is-config="true" signature="methodInvoke()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:55 EDT" name="methodInvoke" finished-at="2024-06-11T20:56:55 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="methodInvoke()[pri:0, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:39:57 EDT" name="methodInvoke" finished-at="2024-06-11T22:39:57 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInvoke -->
-        <test-method signature="getNthProduct()[pri:200, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:55 EDT" name="getNthProduct" finished-at="2024-06-11T20:56:55 EDT" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="methodClose()[pri:0, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:40:08 EDT" name="methodClose" finished-at="2024-06-11T22:40:08 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodClose -->
+        <test-method is-config="true" signature="methodInvoke()[pri:0, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:40:08 EDT" name="methodInvoke" finished-at="2024-06-11T22:40:08 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodInvoke -->
+        <test-method signature="getNthProduct()[pri:200, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:40:08 EDT" name="getNthProduct" finished-at="2024-06-11T22:40:08 EDT" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getNthProduct -->
-        <test-method is-config="true" signature="methodClose()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:55 EDT" name="methodClose" finished-at="2024-06-11T20:56:55 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="methodClose()[pri:0, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:40:08 EDT" name="methodClose" finished-at="2024-06-11T22:40:08 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodClose -->
-        <test-method is-config="true" signature="methodInvoke()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:55 EDT" name="methodInvoke" finished-at="2024-06-11T20:56:55 EDT" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="methodInvoke()[pri:0, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:40:08 EDT" name="methodInvoke" finished-at="2024-06-11T22:40:08 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodInvoke -->
-        <test-method signature="computerCheck()[pri:300, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:56:55 EDT" name="computerCheck" finished-at="2024-06-11T20:57:15 EDT" duration-ms="20335" status="PASS">
+        <test-method signature="computerCheck()[pri:300, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:40:08 EDT" name="computerCheck" finished-at="2024-06-11T22:40:37 EDT" duration-ms="28527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- computerCheck -->
-        <test-method is-config="true" signature="methodClose()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:57:15 EDT" name="methodClose" finished-at="2024-06-11T20:57:15 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="methodClose()[pri:0, instance:automationScripts.AmazonFeatureTests@563f38c4]" started-at="2024-06-11T22:40:37 EDT" name="methodClose" finished-at="2024-06-11T22:40:37 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodClose -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automationScripts.AmazonFeatureTests@1ca3b418]" started-at="2024-06-11T20:57:15 EDT" name="closeBrowser" finished-at="2024-06-11T20:57:17 EDT" duration-ms="1322" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
       </class> <!-- automationScripts.AmazonFeatureTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

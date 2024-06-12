@@ -8,8 +8,10 @@
           <include name="computerCheck"/>
           <include name="invokeBrowser"/>
           <include name="methodClose"/>
-          <include name="closeBrowser"/>
+          <include name="verifyTitleOfThePage"/>
           <include name="methodInvoke"/>
+          <include name="searchProduct"/>
+          <include name="getNthProduct"/>
         </methods>
       </class> <!-- automationScripts.AmazonFeatureTests -->
     </classes>
