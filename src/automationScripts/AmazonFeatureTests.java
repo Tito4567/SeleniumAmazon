@@ -72,10 +72,6 @@ public class AmazonFeatureTests {
 //			Actions action = new Actions(driver);
 //			action.moveToElement(eleII).perform();
 			Thread.sleep(20000);
-			
-			
-			
-			
 		}
 		
 		
