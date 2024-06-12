@@ -1,5 +1,6 @@
 package automationScripts;
 
+import org.openqa.selenium.interactions.Actions;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.support.ui.Select;
@@ -56,14 +57,23 @@ public class AmazonFeatureTests {
 		@Test(priority = 300)
 		public void computerCheck() throws InterruptedException 
 		{
-			l++;
-			System.out.println(l);
-			String title = "Amazon.com: Computers & Accessories: Electronics: Computer Accessories & Peripherals, Tablet Accessories & More";
-			System.out.println("computerCheck");
-			WebElement eleII = driver.findElement(By.xpath("//a[@aria-label='Computers']"));
-			eleII.click();
-			String actualTitle = driver.getTitle();
-			Assert.assertEquals(title, actualTitle);
+//			l++;
+//			System.out.println(l);
+//			String title = "Amazon.com: Computers & Accessories: Electronics: Computer Accessories & Peripherals, Tablet Accessories & More";
+//			System.out.println("computerCheck");
+//			WebElement eleII = driver.findElement(By.xpath("//a[@aria-label='Computers']"));
+//			eleII.click();
+//			String actualTitle = driver.getTitle();
+//			Assert.assertEquals(title, actualTitle);
+			
+			System.out.println("Runnng hover test");
+			WebElement eleII = driver.findElement(By.xpath("//a[@data-nav-role='signin']"));
+//			Actions action = new Actions(driver);
+//			action.moveToElement(eleII).perform();
+//			Thread.sleep(20000);
+			
+			
+			
 			
 		}
 		

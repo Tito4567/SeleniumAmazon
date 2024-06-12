@@ -1,5 +1,17 @@
 Amazon test cases
 
+Scenario: Logging in with client credentials
+
+Given client has registered with Amazon.com
+and 
+client has navigated to Amazon.com
+
+Client will go "Hello, sign in Account & Lists" drop down. 
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Feature: Purchase of an item
 
 Scenario: Navigating to Computer section
@@ -12,8 +24,7 @@ When: User clicks on "looking glass"
 
 Then: Amazon is navigated to computer section
 
------------------------------------------------------------------------------------------------
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Scenario: Going to product description page
 
