@@ -1,4 +1,5 @@
 Amazon test cases
+Feature: Purchase of an item
 
 Scenario: Logging in with client credentials
 
@@ -12,7 +13,7 @@ Client will go "Hello, sign in Account & Lists" drop down.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Feature: Purchase of an item
+
 
 Scenario: Navigating to Computer section
 
